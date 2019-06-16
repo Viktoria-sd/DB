@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E012162-80EF-9D3F-6C38-8D5A8F3E5DE9" name="Refund">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>EFE54676-95F1-57A3-B76F-DC96D6C5A3D7</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Refund" id="7C6350C0-74D9-2738-FB85-BA9B7A69D436">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>5FE4C03B-7485-0C0B-4F8D-126A7810823E</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="R_Specification" id="66B40F1A-F20D-D418-8C3F-E61792DB5951">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>0B947F18-9405-0DCE-4C62-B681552EF590</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="010CA59A-EACF-991D-8E59-24349EA61872" name="Refund_PK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>FE9268D9-711B-5466-8DC2-E6AB2494B008</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C6350C0-74D9-2738-FB85-BA9B7A69D436"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

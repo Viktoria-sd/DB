@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A693B99E-5E3F-61B0-2932-77CE890BEFE4" containerWithKeyObject="6002A597-51B0-E830-90C9-0ECB4610FB08" localFKIndex="DFEFFDB0-B8AD-60CB-1E46-24F64A193A19" name="Selling_Refund_FK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:37 UTC</createdTime>
+<generatorID>6EF5F60E-F15B-55B5-ED93-97040D371B6C</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E012162-80EF-9D3F-6C38-8D5A8F3E5DE9</referredTableID>
+<keyObject>010CA59A-EACF-991D-8E59-24349EA61872</keyObject>
+<referredKeyID>010CA59A-EACF-991D-8E59-24349EA61872</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

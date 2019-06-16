@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="B3EA2948-5086-9DF0-2490-E38430FC3DDD">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-11-15 08:12:42 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<sourcePk>8B2BA781-03D8-BE0B-5090-5F6E39033BC5</sourcePk>
+<targetPk>2F8E26FD-202A-B11E-3B70-94CE716E267D</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>53E075D6-08BE-2102-8ED5-011996D2D74E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>87C8CCB2-06AC-804B-455D-32CB89443CA4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

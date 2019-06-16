@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD5D3137-6789-CE42-722F-094BFB8012FA" name="Material">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>E15D5352-D988-7C3A-18E9-EF797F540F99</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Material" id="690A5804-FBA0-25ED-61DF-20EAA8E0F65B">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>BD4AE7A4-23BF-99AC-45F0-603B3243C423</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mat_Name" id="CFD5B0FE-74C2-AEEC-ECF9-355C603D2334">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>FACDEE0B-92AE-809A-2D06-303CF1F614B3</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="240EEE0E-D9D0-DA84-3892-54FEC84726CA" name="Material_PK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>E5FB497A-F0DE-39D5-6137-03B9D9144BBC</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="690A5804-FBA0-25ED-61DF-20EAA8E0F65B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

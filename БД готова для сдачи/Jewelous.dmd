@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Jewelous" id="D03C5FB8-66B5-5171-46BA-D4BAC78AB99D" version="3.5">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 05:01:03 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D03C5FB8-66B5-5171-46BA-D4BAC78AB99D</designId>
+</OSDM_Design>

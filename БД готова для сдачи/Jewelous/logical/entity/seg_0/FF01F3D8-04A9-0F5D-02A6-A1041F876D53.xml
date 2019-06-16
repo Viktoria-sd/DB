@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF01F3D8-04A9-0F5D-02A6-A1041F876D53" name="Master">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 20:19:34 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Master" id="815BF082-B4D1-D740-2100-8A5270697790">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 20:20:12 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="M_Surname " id="6D3B65F8-9399-DA46-3A88-EC88E538D73F">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 20:20:36 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="M_Name" id="6F3EBD5C-AE2A-7A12-4385-0C513E757C5F">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 20:21:29 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="M_Middle_name" id="3DD9D5C8-44C7-BDDF-DD52-7C6C654CD5E8">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 20:21:44 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="M_Ph_number" id="4A906379-41C5-84A2-ECCE-392D6713EB60">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 20:21:54 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDEEF001-BCEE-CD5C-DD95-A12E393D1313" name="Мастер PK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 20:20:22 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>815BF082-B4D1-D740-2100-8A5270697790</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

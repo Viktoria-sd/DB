@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6002A597-51B0-E830-90C9-0ECB4610FB08" name="Selling">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>87C8CCB2-06AC-804B-455D-32CB89443CA4</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Selling" id="59859490-F2C9-9C28-C514-8CD881703C51">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>D43EE7FA-70E5-7A90-ECA4-A533FA13C1DF</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_of_sale" id="50F2D851-26D5-766F-DF33-1825D23CF877">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>EB444A43-6E57-1DEA-229C-11FAD459B5E6</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_of_order" id="BAD1D1C1-25CF-0500-E1A7-A4BCEE665659">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>8610C942-27DC-ACE4-D103-ED43A90F21A1</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cost" id="D9575FC5-1D25-F524-4B3E-8096EB320840">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>515E91CB-707F-30CF-B8D7-5E9E03174148</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Client_ID_Client" id="14983984-B724-C342-D985-C90B1D7ECDBF">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>E90CB849-0717-EB46-C835-87777CA82D46</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C4FEAC7-3AD9-D524-B9D9-ED1F3769E29F" referredColumn="B7BAA0F5-0A17-7BC1-C4FE-B84992F30BBD"/>
+</associations>
+</Column>
+<Column name="Prepay" id="59FFBC69-54DA-A1A0-FE13-AB42D29ECF25">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>1D6D8AF1-A928-97CC-3489-7229B676FE98</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Refund_ID_Refund" id="480847E5-D92A-316C-67D4-38B10984F349">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>C01735FB-2BE2-E41F-1470-C119E7CB72BD</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A693B99E-5E3F-61B0-2932-77CE890BEFE4" referredColumn="7C6350C0-74D9-2738-FB85-BA9B7A69D436"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="978A1257-7571-6268-8AFD-9A5B58CB616F" name="Selling_PK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>2F8E26FD-202A-B11E-3B70-94CE716E267D</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59859490-F2C9-9C28-C514-8CD881703C51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CA0039B-A392-B782-B6CB-3BA783A1C550" name="Selling_Client_FK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:37 UTC</createdTime>
+<generatorID>B3EA2948-5086-9DF0-2490-E38430FC3DDD</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14983984-B724-C342-D985-C90B1D7ECDBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFEFFDB0-B8AD-60CB-1E46-24F64A193A19" name="Selling_Refund_FK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:37 UTC</createdTime>
+<generatorID>6EF5F60E-F15B-55B5-ED93-97040D371B6C</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="480847E5-D92A-316C-67D4-38B10984F349"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

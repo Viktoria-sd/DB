@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64EBB625-3086-B4DD-2170-0335B5D795E7" name="Price">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>61C1B9CA-94E4-F08F-9359-D761D4644FBB</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Price" id="DFD0D65B-2C74-74DA-30F4-169BE7A8A828">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>C85E7604-2165-8CC3-9E42-8AB5AD9A819B</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price_per_gram" id="AC9964E1-1BE0-0732-DCD2-086801F5A6C7">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>D2623F79-3881-5935-A335-0F54F7F2ECA4</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_actions" id="6F7F5348-03B8-DCB6-E4FF-B83D4EBFDD17">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>2A869E5B-0842-F6C4-BE69-9E29188E676A</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Material_ID_Material" id="725BA419-64B5-FD5C-BF24-D20AB7A35D23">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>3C316090-7715-C41B-6F2E-2B208D449CB9</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64F372CB-0FF2-550B-2DC4-7358C88EC3F7" referredColumn="690A5804-FBA0-25ED-61DF-20EAA8E0F65B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10C688FB-5B39-0FA7-F22F-126507E9E37F" name="Price_PK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:36 UTC</createdTime>
+<generatorID>93A960A1-F8C2-EC38-06D4-35250FBFEFEC</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFD0D65B-2C74-74DA-30F4-169BE7A8A828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46CAFD97-801E-9430-6F1C-DBC92C9763EE" name="Price_Material_FK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:37 UTC</createdTime>
+<generatorID>4EBB65E0-BDC2-9E9D-9AE5-910225B0D3A4</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="725BA419-64B5-FD5C-BF24-D20AB7A35D23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

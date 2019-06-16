@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="E85E1B5E-C500-7921-4E49-246F98E94E8A">
+<createdBy>141-361</createdBy>
+<createdTime>2016-11-29 10:30:01 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<sourcePk>FDEEF001-BCEE-CD5C-DD95-A12E393D1313</sourcePk>
+<targetPk>13CA8DEB-0278-EAD3-F091-77D5848186E5</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FF01F3D8-04A9-0F5D-02A6-A1041F876D53</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>606231D6-2B7F-FB44-41E0-EEFE95D9F796</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

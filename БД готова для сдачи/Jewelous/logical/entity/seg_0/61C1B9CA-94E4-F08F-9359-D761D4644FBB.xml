@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61C1B9CA-94E4-F08F-9359-D761D4644FBB" name="Price">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-11-15 10:40:57 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Price" id="C85E7604-2165-8CC3-9E42-8AB5AD9A819B">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-11-15 10:41:08 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price_per_gram" id="D2623F79-3881-5935-A335-0F54F7F2ECA4">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-11-15 10:41:14 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_actions" id="2A869E5B-0842-F6C4-BE69-9E29188E676A">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-11-26 16:10:01 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Material" id="3C316090-7715-C41B-6F2E-2B208D449CB9">
+<createdBy>User</createdBy>
+<createdTime>2016-11-29 10:15:10 UTC</createdTime>
+<generatorID>4EBB65E0-BDC2-9E9D-9AE5-910225B0D3A4</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<referedAttribute>BD4AE7A4-23BF-99AC-45F0-603B3243C423</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93A960A1-F8C2-EC38-06D4-35250FBFEFEC" name="Цены PK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-11-15 10:44:27 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C85E7604-2165-8CC3-9E42-8AB5AD9A819B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

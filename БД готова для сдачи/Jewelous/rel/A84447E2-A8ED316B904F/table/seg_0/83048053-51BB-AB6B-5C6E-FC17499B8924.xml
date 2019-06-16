@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83048053-51BB-AB6B-5C6E-FC17499B8924" name="Relation_7v1">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:37 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_ID_Product" id="89D027FC-50B0-5727-27C8-7136EBB951A7">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:37 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B83EFB4-BA0C-6A28-C6D3-46D991B101E8" referredColumn="8184EEAD-E0F3-01D4-23FA-30B6D2B27DA8"/>
+</associations>
+</Column>
+<Column name="Selling_ID_Selling" id="AFE1DDEB-ABE4-3401-ED8E-E00640882F90">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:37 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81BB5201-553F-5CBB-0F64-18F59CC76C04" referredColumn="59859490-F2C9-9C28-C514-8CD881703C51"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9632646-8439-8FD2-8A96-1D852D21298C" name="Relation_7v1_PK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:37 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89D027FC-50B0-5727-27C8-7136EBB951A7"/>
+<colUsage columnID="AFE1DDEB-ABE4-3401-ED8E-E00640882F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3317C3CA-1826-E7EF-AA06-ADD26E730DE2" name="FK_ASS_19">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:37 UTC</createdTime>
+<generatorID>B4D6D2F0-5AF5-AD38-D619-F85DA0F53612</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89D027FC-50B0-5727-27C8-7136EBB951A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCF38835-9854-4B92-1ABE-325D8E2EDB1B" name="FK_ASS_20">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:32:37 UTC</createdTime>
+<generatorID>B4D6D2F0-5AF5-AD38-D619-F85DA0F53612</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFE1DDEB-ABE4-3401-ED8E-E00640882F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

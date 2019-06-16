@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="87C8CCB2-06AC-804B-455D-32CB89443CA4" name="Selling">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 21:00:22 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Selling" id="D43EE7FA-70E5-7A90-ECA4-A533FA13C1DF">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 21:47:02 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_of_sale" id="EB444A43-6E57-1DEA-229C-11FAD459B5E6">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 21:45:41 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_of_order" id="8610C942-27DC-ACE4-D103-ED43A90F21A1">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-11 21:45:54 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cost" id="515E91CB-707F-30CF-B8D7-5E9E03174148">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-18 08:48:03 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Client" id="E90CB849-0717-EB46-C835-87777CA82D46">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-11-15 08:12:42 UTC</createdTime>
+<generatorID>B3EA2948-5086-9DF0-2490-E38430FC3DDD</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<referedAttribute>E1FE74A9-56CB-DF23-653F-0A3B34878AD1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prepay" id="1D6D8AF1-A928-97CC-3489-7229B676FE98">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-11-15 10:04:15 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Refund" id="C01735FB-2BE2-E41F-1470-C119E7CB72BD">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-12-06 11:31:23 UTC</createdTime>
+<generatorID>6EF5F60E-F15B-55B5-ED93-97040D371B6C</generatorID>
+<ownerDesignName>Jewelous</ownerDesignName>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="true"/>
+</engineerTo>
+<referedAttribute>5FE4C03B-7485-0C0B-4F8D-126A7810823E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F8E26FD-202A-B11E-3B70-94CE716E267D" name="Продажи PK">
+<createdBy>Викусик</createdBy>
+<createdTime>2016-10-17 18:39:07 UTC</createdTime>
+<ownerDesignName>Jewelous</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A84447E2-0E57-6870-1672-A8ED316B904F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D43EE7FA-70E5-7A90-ECA4-A533FA13C1DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
