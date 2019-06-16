@@ -1,0 +1,47 @@
+№1  Вывести фамилии и имена мужчин технологов компании и их логины
+
+SELECT [LastName] as [Фамилия]
+	,[FirstName] as [Имя]
+	,[JobTitle] as [Должность]
+	,[LoginID] as [Логин]
+  FROM [AdventureWorks2012].[HumanResources].[Employee]
+  
+  inner join Person.Person
+  ON HumanResources.Employee.BusinessEntityID=Person.BusinessEntityID
+  
+  Where (Gender ='M') and ([JobTitle] like '%technic%') and ([PersonType]='EM')
+  --технолог переводится как technologist, engineer, technician поэтому вывела technician думаю это лучше подходит
+
+
+№2  Вывести название четырёх территорий, где было меньше всего продаж
+
+SELECT TOP (4) [Name] as [Территория]
+      ,[SalesYTD] as [За этот год]
+      ,[SalesLastYear] as [За прошлый год]
+      ,[SalesYTD]+[SalesLastYear] as [За 2 последних года]
+  FROM [AdventureWorks2012].[Sales].[SalesTerritory]
+  
+  order by [за этот год] asc
+
+
+№3 Вывести фамилии и имена 20-ти покупателей сделавших меньше всех покупок из Австралии
+
+SELECT top (20)
+		[FirstName] as [Фамилия покупателя]
+		,[LastName] as [Имя покупателя]
+      		,count([Sales].[SalesOrderHeader].CustomerID) as [Число продаж]
+
+  FROM [AdventureWorks2012].[Sales].[SalesOrderHeader]
+
+ inner join Sales.Customer
+ on Sales.SalesOrderHeader.CustomerID=Sales.Customer.CustomerID
+ inner join Person.Person
+ on Sales.Customer.PersonID=Person.BusinessEntityID
+
+where ([Sales].[SalesOrderHeader].[TerritoryID]=9) --Австралия
+group by [Sales].[SalesOrderHeader].CustomerID
+		,[Sales].[SalesOrderHeader].TerritoryID
+		,[PersonID]
+		,[FirstName]
+		,[LastName]
+order by count([Sales].[SalesOrderHeader].CustomerID)
